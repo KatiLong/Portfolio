@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'MarketDeco';
+    src: url('font/Market_Deco.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: MarketDeco;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    /*    position: fixed;*/
+    width: 100%;
+    background-color: darkmagenta;
+    color: #838994;
+    height: 100px;
+}
+
+.navbar-header {
+    font-size: 40px;
+}
+
+nav .nav-links {
+    float: right;
+    font-size: 24px;
+    margin-top: 25px;
+}
