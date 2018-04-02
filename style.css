@@ -27,15 +27,36 @@ nav {
 
 .navbar-header {
     font-size: 40px;
-}
-
-nav .nav-links {
-    float: right;
-    font-size: 24px;
+    color: whitesmoke;
+    float: left;
     margin-top: 25px;
 }
 
-nav.links li {
-    display: inline-block;
+.nav-links ul {
     margin-left: 30px;
+    float: right;
+    font-size: 25px;
+    margin: 27px;
+}
+
+.nav-links li {
+    float: left;
+    padding: 10px;
+}
+
+.portfolio {
+    width: 100%;
+}
+
+.project-wrapper {
+    width: 45%;
+    padding: 2%;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.preview-img {
+    max-height: 400px;
+    width: 100%;
 }
