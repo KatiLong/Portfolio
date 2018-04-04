@@ -60,3 +60,7 @@ nav {
     max-height: 400px;
     width: 100%;
 }
+
+li a {
+    color: #838994;
+}
