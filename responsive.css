@@ -52,6 +52,9 @@
         /* width: 50%;
         display: inline-block; */
     }
+    .nav-links {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -60,8 +63,8 @@
 @media only screen and (min-width: 1024px) {
 
     h1 {
-       color: black;
-       font-size: 4rem;
+       /* color: black; */
+       font-size: 3.8rem;
     }
     h2 {
         font-size: 3rem;

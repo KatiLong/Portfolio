@@ -4,7 +4,7 @@ function imageRatio() {
     var project = $('.project-wrapper');
     var width = div.width();
     
-    div.css('height', (width*(1/2)));
+    div.css('height', (width*(2/3)));
     project.css('height', width*(.82));
 }
 

@@ -50,7 +50,7 @@ nav {
 } */
 .navbar-header {
     margin: 0;
-    font-size: 40px;
+    font-size: 2.3rem;
     text-align: left;
     color: whitesmoke;
     width: 25%;
@@ -61,7 +61,7 @@ nav {
 .nav-links {
     margin: 0;
     text-align: right;
-    font-size: 25px;
+    font-size: 1.4rem;
     width: 75%;
     display: inline-block;
     vertical-align: top;
@@ -178,7 +178,7 @@ footer {
     z-index: 0;
     width: 95%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 2%;
 }
 .overlay {
     position: absolute;
@@ -192,7 +192,7 @@ footer {
   }
 .project-title  {
     position: relative;
-    margin-top: 10%;
+    padding-top: 10%;
     font-size: 4rem;
     opacity: 0;
     transition: opacity .35s ease;
@@ -224,6 +224,7 @@ footer {
     color: white;
     border: solid 2px white;
     display: block;
+    font-size: 2rem;
 }
 .project-button a:hover {
     background-color: (255, 255, 255, .4);
@@ -235,12 +236,15 @@ footer {
 }
 #bob:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 #bob:hover .project-title {
     opacity: 1;
 }
 #bob:hover .button-wrapper {
+    opacity: 1;
+}
+#bob:hover .button-a {
     opacity: 1;
 }
 #shakes {
@@ -249,7 +253,7 @@ footer {
 }
 #shakes:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .7);
 }
 #shakes:hover .project-title {
     opacity: 1;
@@ -263,7 +267,7 @@ footer {
 }
 #museum:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .6);
 }
 #museum:hover .project-title {
     opacity: 1;
@@ -277,7 +281,7 @@ footer {
 }
 #clue:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .7);
 }
 #clue:hover .project-title {
     opacity: 1;
