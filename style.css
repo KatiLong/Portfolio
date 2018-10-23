@@ -12,7 +12,9 @@ body {
     text-align: center;
     font-size: 36px;
 }
-
+h1 {
+    margin: .2em 0;
+}
 ul {
     list-style-type: none;
 }
@@ -66,11 +68,33 @@ li a {
 }
 
 #about {
-    background: url("images/about.jpg") cover no-repeat;
+    /* background: url("images/about.jpg") cover no-repeat; */
     width: 100%;
     height: 25vh;
 }
 
 #about img{
-    width: 100%;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
 }
+#about-info {
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    background: #0083b0;
+    color: white;
+    vertical-align: top;
+}
+
+#background-grey {
+    background: slategray;
+    height: 100vh;
+    width: 25%;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+}
+
+/* -webkit-gradient(linear,left top,left bottom,from(#43c6ac),to(#0083b0)); */
