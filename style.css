@@ -12,6 +12,9 @@ body {
     text-align: center;
     font-size: 36px;
 }
+main {
+    font-size: 0;
+}
 h1 {
     margin: .2em 0;
 }
@@ -66,10 +69,15 @@ nav {
 li a {
     color: #838994;
 }
-
+.page-block {
+    width: 95%;
+    font-size: 1rem;
+    background-color: #838994;
+    color: white;
+    margin: 0 auto;
+}
 #about {
     width: 100%;
-    font-size: 0;
 }
 #name-card {
     background: url(images/about.jpg) no-repeat center;
@@ -93,10 +101,11 @@ li a {
 }
 #about-info {
     font-size: 1rem;
-    width: 95%;
+    
     height: 100%;
     display: block;
     background: #0083b0;
+    /* rgba(92, 141, 181, 0.6); */
     color: white;
     vertical-align: text-top;
     margin: 0 auto;
@@ -132,6 +141,91 @@ li a {
 
 nav {
     display: none;
+}
+/* ///////////PROJECTS////////////// */
+.project-wrapper {
+    background: white;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+.project-wrapper:hover {
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+    z-index: 1;
+  }
+.project-title  {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    opacity: 0;
+    transition: opacity .35s ease;
+    z-index: 2;
+}
+.button-wrapper {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    z-index: 2;
+}
+.project-button {
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 5px;
+} 
+.project-button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+}
+.project-button a:hover {
+    background-color: (255, 255, 255, .4);
+    color: black;
+}
+#bob {
+    background-color: #838994;
+    background: url("images/bolus-on-board.png") no-repeat center;
+    background-size: cover;
+}
+#bob:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+#bob:hover .project-title {
+    opacity: 1;
+}
+#bob:hover .button-wrapper {
+    opacity: 1;
+}
+/* #bob:hover #bob-git, #bob-demo {
+    display: block;
+} */
+#shakes {
+    background: url("images/shakes-passport.jpg") no-repeat center;
+    background-size: cover;
+}
+#museum {
+    background: url("images/museum-explorer.jpg") no-repeat center;
+    background-size: cover;
+}
+#clue {
+    background: url("images/clue-quiz.jpg") no-repeat center;
+    background-size: cover;
 }
 
 /* -webkit-gradient(linear,left top,left bottom,from(#43c6ac),to(#0083b0)); */

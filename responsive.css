@@ -48,7 +48,10 @@
     }
     nav {
         display: block;
-    
+    }
+    .page-block {
+        width: 50%;
+        display: inline-block;
     }
 }
 
