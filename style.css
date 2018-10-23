@@ -20,7 +20,7 @@ ul {
 nav {
     /*    position: fixed;*/
     width: 100%;
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
     color: #838994;
     height: 100px;
 }
@@ -63,4 +63,14 @@ nav {
 
 li a {
     color: #838994;
+}
+
+#about {
+    background: url("images/about.jpg") cover no-repeat;
+    width: 100%;
+    height: 25vh;
+}
+
+#about img{
+    width: 100%;
 }
