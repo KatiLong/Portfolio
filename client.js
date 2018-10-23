@@ -1,9 +1,11 @@
 //Funciton Declarations
 function imageRatio() {
     var div = $('.page-block');
+    var project = $('.project-wrapper');
     var width = div.width();
     
-    div.css('height', (width*(2/3)));
+    div.css('height', (width*(1/2)));
+    project.css('height', width*(.82));
 }
 
 //Event Triggers

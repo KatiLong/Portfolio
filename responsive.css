@@ -3,7 +3,7 @@
 /*iPhone portrait*/
 
 @media only screen and (min-width: 320px) {
-    body {
+    h1 {
        color: purple;
     }
 
@@ -13,8 +13,11 @@
 
 @media only screen and (min-width: 480px) {
 
-    body {
+    h1 {
        color: green;
+    }
+    #h-wrapper {
+        margin: -20% 0 0 -30%;
     }
 
 }
@@ -22,7 +25,7 @@
 /*Android Resolution (Lollipop) 640px*/
 
 @media only screen and (min-width: 640px) {
-    body {
+    h1 {
        color: darkturquoise;
     }
 }
@@ -30,18 +33,8 @@
 /*ipad potrait*/
 
 @media only screen and (min-width: 768px) {
-    body {
+    h1 {
        color: red;
-    }
-    #name-card {
-        width: 50%;
-        display: inline-block;
-        /* vertical-align: top; */
-    }
-    #about-info {
-        width: 50%;
-        display: inline-block;
-        vertical-align: text-top;
     }
     .mobile-nav-toggle {
         display: none;
@@ -49,9 +42,15 @@
     nav {
         display: block;
     }
+    body { /*Removes the navbar space*/
+        padding-top: 100px;
+    }
+    #about-info {
+        width: 100%;
+    }
     .page-block {
-        width: 50%;
-        display: inline-block;
+        /* width: 50%;
+        display: inline-block; */
     }
 }
 
@@ -60,8 +59,26 @@
 
 @media only screen and (min-width: 1024px) {
 
-    body {
+    h1 {
        color: black;
+       font-size: 4rem;
     }
+    h2 {
+        font-size: 3rem;
+    }
+    #h-wrapper {
+        /* top: 80%; */
+    }
+    #about-info {
+        width: 50%;
+        display: inline-block;
+    }
+    #name-card {
+        width: 50%;
+        display: inline-block;
 
+    }
+    .nav-links {
+        font-size: 1.5rem;
+    }
 }
