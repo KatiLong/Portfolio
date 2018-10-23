@@ -11,9 +11,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body onresize="imageRatio()">
+    <div class="mobile-nav-toggle">
+        <div class="mobile-lines"></div>
+        <div class="mobile-lines"></div>
+        <div class="mobile-lines"></div>
+    </div>
     <nav role="navigation">
         <div class="container">
             <div class="navbar-header">KATI LONG</div>
@@ -27,32 +33,35 @@
                 </ul>
             </div>
         </div>
-
     </nav>
-    <header role="header">
-        <h1>Kati Long</h1>
-        <h2>Web Developer</h2>
-    </header>
-    <main role="main">
-        <section id="portfolio">
+    <main role="main" id="portfolio">
             <div id="background-grey"></div>
-            <span id="about">
-                <img src="images/about.jpg"/>
-                <div class="page-div" id="about-info">
-                    <h3>About Me</h3>
+            <section id="about">
+                <div class="page-block" id="name-card">
+                    <span id="h-wrapper">
+                        <h1>Kati Long</h1>
+                        <h2>Web Developer</h2>
+                    </span>
                 </div>
-            </span>
+                <div class="page-block" id="about-info">
+                    <h3>About</h3>
+                    <p>A Fullstack Web Developer</p>
+                </div>
+            </section>
             <!-- https://codepen.io/philcheng/pen/YWyYwG -->
-            <div class="project-wrapper">
-                <p>Clue The Movie: Quiz App</p>
-                <a href=""><img src="images/clue-quiz.jpg" alt="Preview image of Clue the Movie Quiz Application" class="preview-img"></a>
-            </div>
-            <div class="project-wrapper">
-                <p>Museum Explorer</p>
-                <a href=""><img src="images/museum-explorer.jpg" alt="Preview image of Museum Explorere Home Page" class="preview-img"></a>
-            </div>
+            <section id="projects">
+                <div class="project-wrapper">
+                    <p>Clue The Movie: Quiz App</p>
+                    <a href=""><img src="images/clue-quiz.jpg" alt="Preview image of Clue the Movie Quiz Application" class="preview-img"></a>
+                </div>
+                <div class="project-wrapper">
+                    <p>Museum Explorer</p>
+                    <a href=""><img src="images/museum-explorer.jpg" alt="Preview image of Museum Explorere Home Page" class="preview-img"></a>
+                </div>
+            </section>
+            <section class="page-block" id="skills">
 
-        </section>
+            </section>
     </main>
     <footer>Copyright Kati Long 2018</footer>
     <script type="text/javascript" src="client.js"></script>
