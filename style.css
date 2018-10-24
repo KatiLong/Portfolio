@@ -3,6 +3,8 @@
     src: url('font/Market_Deco.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
 * {
     box-sizing: border-box;
 }
@@ -57,7 +59,9 @@ nav {
     display: inline-block;
     vertical-align: top;
 }
-
+.logos {
+    width: 40px;
+}
 .nav-links {
     margin: 0;
     text-align: right;
@@ -68,6 +72,7 @@ nav {
 }
 .nav-links ul {
     display: inline-block;
+    padding: 0;
 }
 
 .nav-links li {
@@ -97,6 +102,10 @@ li a {
 }
 #about {
     width: 100%;
+    
+}
+#about-info p {
+    font-family: 'PT Serif', serif;
 }
 #name-card {
     background: url(images/about.jpg) no-repeat center;
@@ -126,7 +135,6 @@ li a {
     background: #0083b0;
     /* rgba(92, 141, 181, 0.6); */
     color: white;
-    vertical-align: text-top;
     margin: 0 auto;
 }
 #background-grey {
@@ -295,6 +303,9 @@ footer {
 #skills {
     background: #43c6ac;
     width: 100%;
+}
+#skills span {
+    font-family: 'PT Serif', serif;
 }
 
 /* -webkit-gradient(linear,left top,left bottom,from(#43c6ac),to(#0083b0)); */
