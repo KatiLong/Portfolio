@@ -27,7 +27,7 @@ h2 {
     margin-top: 1rem;
 }
 h3 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
 }
 ul {
@@ -78,6 +78,7 @@ nav {
 .nav-links li {
     float: left;
     padding: 10px;
+    cursor: pointer;
 }
 
 .portfolio {
@@ -122,11 +123,11 @@ li a {
 }
 #h-wrapper {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     height: 30%;
-    width: 60%;
-    margin: -15% 0 0 -30%;
+    width: 100%;
+    margin: -15% 0 0 -50%;
 }
 #about-info {
     font-size: 1rem;
@@ -201,12 +202,13 @@ footer {
 .project-title  {
     position: relative;
     padding-top: 10%;
-    font-size: 4rem;
+    font-size: 3rem;
+    /* font-size: 4rem; */
     opacity: 0;
     transition: opacity .35s ease;
     z-index: 2;
 }
-.button-wrapper {
+/* .button-wrapper {
     position: absolute;
     width: 100%;
     left:0;
@@ -215,10 +217,21 @@ footer {
     opacity: 0;
     transition: opacity .35s ease;
     z-index: 2;
+} */
+.button-wrapper {
+    position: absolute;
+    width: 100%;
+    left: 5%;
+    top: 65%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    z-index: 2;
 }
 .project-button {
     display: inline-block;
-    width: 25%;
+    width: 50%;
+    /* width: 25%; */
     margin: 0 auto;
     border-radius: 5px;
 } 
@@ -226,13 +239,13 @@ footer {
     cursor: pointer;
 }
 .project-button a {
-    width: 200px;
-    padding: 12px 48px;
+    width: 75%;
+    /* padding: 12px 48px; */
     text-align: center;
     color: white;
     border: solid 2px white;
     display: block;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 .project-button a:hover {
     background-color: (255, 255, 255, .4);
@@ -301,11 +314,24 @@ footer {
 /* //////////////////////////////SKILLS//////////////////////////////// */
 
 #skills {
-    background: #43c6ac;
+    background: #F0643E;
     width: 100%;
+    text-align: left;
+    padding: 0 1% 5% 4%;
+}
+#skills h3 {
+    padding-bottom: 1rem;
+    text-align: center; 
 }
 #skills span {
     font-family: 'PT Serif', serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+#skills .skill-type {
+    font-family: MarketDeco;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
 }
 
 /* -webkit-gradient(linear,left top,left bottom,from(#43c6ac),to(#0083b0)); */

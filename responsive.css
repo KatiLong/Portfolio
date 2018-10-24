@@ -15,10 +15,29 @@
 
     h1 {
        color: green;
+       font-size: 3.5rem;
     }
-    #h-wrapper {
-        margin: -20% 0 0 -30%;
+    h2 {
+        font-size: 2.5rem;
     }
+    h3 {
+        font-size: 2.5rem;
+    }
+    .project-title {
+        padding-top: 10%;
+        font-size: 4.8rem;
+    }
+    .button-wrapper {
+        top: 65%;
+    }
+    .project-button a {
+        font-size: 2.2rem;
+    }
+    /* #h-wrapper {
+        width: 70%;
+        margin: -20% 0 0 -35%;
+        top: 55%;
+    } */
 
 }
 
@@ -26,8 +45,29 @@
 
 @media only screen and (min-width: 640px) {
     h1 {
-       color: darkturquoise;
+        color: darkturquoise;
+        font-size: 4.8rem;
     }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 4rem;
+    }
+    /* #h-wrapper {
+        width: 90%;
+        margin: -20% 0 0 -45%;
+    } */
+    #skills span {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    #skills .skill-type {
+        font-size: 2.1rem;
+        line-height: 2.8rem;
+    }
+
+
 }
 
 /*ipad potrait*/
@@ -35,6 +75,13 @@
 @media only screen and (min-width: 768px) {
     h1 {
        color: red;
+       font-size: 5.8rem;
+    }
+    h2 {
+        font-size: 4.3rem;
+    }
+    h3 {
+        font-size: 4rem;
     }
     .mobile-nav-toggle {
         display: none;
@@ -49,12 +96,19 @@
         width: 100%;
     }
     .page-block {
-        /* width: 50%;
-        display: inline-block; */
+        min-height: 500px;
     }
     .nav-links {
         font-size: 1.5rem;
     }
+    .project-wrapper {
+        width: 90%;
+        margin: 0 auto 4%;
+    }
+    /* #h-wrapper {
+        width: 100%;
+        margin: -17% 0 0 -50%
+    } */
 }
 
 
@@ -63,7 +117,7 @@
 @media only screen and (min-width: 1024px) {
 
     h1 {
-       /* color: black; */
+       color: white;
        font-size: 3.8rem;
     }
     h2 {
@@ -84,4 +138,5 @@
     .nav-links {
         font-size: 1.5rem;
     }
+
 }
