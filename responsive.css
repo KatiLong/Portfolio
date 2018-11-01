@@ -12,9 +12,12 @@
 /*iPhone landscape*/
 
 @media only screen and (min-width: 480px) {
+    /* body {
+        font-size: 42px;
+    } */
 
     h1 {
-       /* color: green; */
+       color: green;
        font-size: 3.5rem;
     }
     h2 {
@@ -22,6 +25,9 @@
     }
     h3 {
         font-size: 2.5rem;
+    }
+    h4 {
+        font-size: 2rem;
     }
     .project-title {
         padding-top: 10%;
@@ -36,6 +42,15 @@
     #about-info p {
         font-size: 1.8rem;
     }
+    .project-info h5 {
+        font-size: 1.4rem;
+    }
+    .project-info {
+        font-size: 1.3rem;
+    }
+    p.technology {
+        font-size: 1.4rem;
+    }
     /* #h-wrapper {
         width: 70%;
         margin: -20% 0 0 -35%;
@@ -48,7 +63,7 @@
 
 @media only screen and (min-width: 640px) {
     h1 {
-        /* color: darkturquoise; */
+        color: darkturquoise;
         font-size: 4.6rem;
     }
     h2 {
@@ -79,7 +94,7 @@
 
 @media only screen and (min-width: 768px) {
     h1 {
-       /* color: red; */
+       color: red;
        font-size: 5.8rem;
     }
     h2 {
@@ -119,6 +134,9 @@
         width: 90%;
         margin: 0 auto 4%;
     }
+    .project-info {
+        width: 90%;
+    }
     #about-info p {
         font-size: 2rem;
         padding: 0 5%;
@@ -133,7 +151,7 @@
         color: #838994;
         height: 100px;
         font-size: 0;
-        padding: 3% 3% 0;
+        padding: 30px 3% 0;
         background-color: rgba(255,255,255, .9);
         z-index: 2;
     }
@@ -159,6 +177,9 @@
         display: inline-block;
         width: auto;
     }
+    h4.title-main {
+        line-height: 5rem;
+    }
 }
 
 
@@ -167,7 +188,7 @@
 @media only screen and (min-width: 1024px) {
 
     h1 {
-       /* color: white; */
+       color: white;
        font-size: 3.8rem;
     }
     h2 {
@@ -188,5 +209,23 @@
     .nav-links {
         font-size: 1.5rem;
     }
-
+    .project-wrapper {
+        display: inline-block;
+        width: 52%;
+        vertical-align: top;
+        margin: 0 1%;
+    }
+    .project-info {
+        display: inline-block;
+        width: 46%;
+        vertical-align: ;
+        border: none;
+        padding: 0 2%;
+    }
+    #projects h3 {
+        border-bottom: none;
+    }
+    .title-main {
+        border-top: 1px white solid;
+    }
 }
