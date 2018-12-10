@@ -12,10 +12,10 @@ function imageRatio() {
         let nameHeight = $('#name-card').height();
         let about = $('#about-info');
         if (about.height() < nameHeight) {
-            console.log('name card is more');
+            // console.log('name card is more');
             about.css('min-height', nameHeight);
         } else if (nameHeight < about.height()){ 
-            console.log('about is more');
+            // console.log('about is more');
             $('#name-card').css('min-height', about.height());
         };
     } else if ($(".mobile-nav-toggle").css("display") == "none") { //red media query
@@ -31,19 +31,19 @@ function imageRatio() {
 }
 //Event Triggers
 $('#about-nav').click(() => {
-    console.log('about nav ran');
+    // console.log('about nav ran');
     $('html, body').animate({
         scrollTop: $('#about').offset().top - 100
     }, 200);
 });
 $('#skills-nav').click(() => {
-    console.log('about nav ran');
+    // console.log('about nav ran');
     $('html, body').animate({
         scrollTop: $('#skills').offset().top - 100
     }, 200);
 });
 $('#projects-nav').click(() => {
-    console.log('about nav ran');
+    // console.log('about nav ran');
     $('html, body').animate({
         scrollTop: $('#projects').offset().top - 100
     }, 200);
@@ -55,7 +55,7 @@ $('.mobile-nav-toggle').click(()=> {
 })
 $('nav').click(() => {
     if ($('.mobile-nav-toggle').css('display') == 'block') {
-        console.log('Mobile nav displayed');
+        // console.log('Mobile nav displayed');
         $('nav').hide();
     }
 })
