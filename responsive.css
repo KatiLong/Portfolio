@@ -17,7 +17,7 @@
     } */
 
     h1 {
-       color: green;
+       /* color: green; */
        font-size: 3.5rem;
     }
     h2 {
@@ -63,7 +63,7 @@
 
 @media only screen and (min-width: 640px) {
     h1 {
-        color: darkturquoise;
+        /* color: darkturquoise; */
         font-size: 4.6rem;
     }
     h2 {
@@ -94,7 +94,7 @@
 
 @media only screen and (min-width: 768px) {
     h1 {
-       color: red;
+       /* color: red; */
        font-size: 5.8rem;
     }
     h2 {
@@ -188,7 +188,7 @@
 @media only screen and (min-width: 1024px) {
 
     h1 {
-       color: white;
+       /* color: white; */
        font-size: 3.8rem;
     }
     h2 {
